@@ -23,6 +23,6 @@ Install Python dependencies:
 
     pip install -r requirements.txt
 
-## Circuit Diagram in README
+## Circuit Diagram for n=3
 
 ![Quantum Hartley Transform Circuit](img/circuit.png)
