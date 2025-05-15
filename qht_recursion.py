@@ -225,7 +225,8 @@ def debug_qht_evolution(n=2, bitstring='01'):
 if __name__ == "__main__":
     n = 3
     qc = qht_clean(n=n)
-    qc.draw('mpl')
+    img = qc.draw('mpl')
+    img.savefig("img/output3.png")
     for bits in [f"{i:0{n}b}" for i in range(2 ** n)]:
         compare_qht_vs_classical(n, bitstring=bits)
 
