@@ -25,4 +25,4 @@ Install Python dependencies:
 
 ## Circuit Diagram for n=3
 
-![Quantum Hartley Transform Circuit](img/circuit.png)
+![Quantum Hartley Transform Circuit](img/output3.png)
