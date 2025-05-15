@@ -223,9 +223,9 @@ def debug_qht_evolution(n=2, bitstring='01'):
                     bits = f"{idx:0{total_qubits}b}"
                     print(f"|{bits}⟩ : {amp.real:+.4f} {amp.imag:+.4f}j")
 if __name__ == "__main__":
-    qc = qht_clean(n=3)
-    qc.draw('mpl')
     n = 3
+    qc = qht_clean(n=n)
+    qc.draw('mpl')
     for bits in [f"{i:0{n}b}" for i in range(2 ** n)]:
         compare_qht_vs_classical(n, bitstring=bits)
 
